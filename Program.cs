@@ -17,9 +17,11 @@ namespace Cycle
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // 输入一个正整数 逆序打印出每一个位数
+            Application.Run(new PostOrder());
             // 编程找出1000以内所有的完数 一个完数所有的因子的和刚好是完数
+            Application.Run(new PerfectNumber());
             //对输入的一组数据进行排序
-            Application.Run(new Form1());
+            Application.Run(new Sort());
         }
     }
 }
